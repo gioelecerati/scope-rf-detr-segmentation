@@ -17,11 +17,11 @@ segmented regions for privacy**.
 
 `masks`:
 
-![Masks overlay](assets/seg-masks.jpg)
+https://github.com/user-attachments/assets/5da74a7f-4b61-4f8a-a283-1c6823b12757
 
 `privacy_blur` — blur the people/objects, keep the scene:
 
-![Privacy blur](assets/privacy-blur.jpg)
+https://github.com/user-attachments/assets/6228228c-2e29-4163-b12b-6294374845b2
 
 ## Features
 
