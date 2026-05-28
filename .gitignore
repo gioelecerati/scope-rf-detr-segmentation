@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pth
+rfdetr_seg_*.jpg
+.venv/

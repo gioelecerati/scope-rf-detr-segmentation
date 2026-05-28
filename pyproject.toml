@@ -1,0 +1,19 @@
+[project]
+name = "scope-rfdetr-segmentation"
+version = "0.1.0"
+description = "RF-DETR instance segmentation plugin for Scope (Roboflow RF-DETR)"
+requires-python = ">=3.12"
+# rfdetr is pinned to 1.5.0: newest release requiring transformers<5, matching
+# Scope's pinned transformers 4.57.x. rfdetr>=1.6 needs transformers>=5.1 which
+# conflicts with Scope's diffusion stack.
+dependencies = [
+    "rfdetr==1.5.0",
+    "supervision>=0.25.0",
+]
+
+[project.entry-points."scope"]
+scope_rfdetr_segmentation = "scope_rfdetr_segmentation.plugin"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
